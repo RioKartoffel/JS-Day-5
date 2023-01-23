@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('tumblr_c572a066e4b45863c68df251ff45d947_56e9b8ea_1280.png') no-repeat center/cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(100px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: white;
+}
